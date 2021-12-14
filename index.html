@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BirthdayCounter</title>
+    <style>
+        section {
+            display: flex;
+            justify-content: space-evenly;
+            margin: 5vh 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>BirthdayCounter</h1>
+    <input type="date" onchange="changeDate()">
+    <section id='section'>
+        <div>
+            <p id='day'></p>
+            <p>Days</p>
+        </div>
+        <div>
+            <p id='hour'></p>
+            <p>Hours</p>
+        </div>
+        <div>
+            <p id='min'></p>
+            <p>Minutes</p>
+        </div>
+        <div>
+            <p id='sec'></p>
+            <p>Seconds</p>
+        </div>
+
+    </section>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
